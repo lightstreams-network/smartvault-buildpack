@@ -4,7 +4,7 @@ cat << EOF
 addons:
   - shared-database:5mb
 config_vars:
-  PATH: bin:/usr/bin:/bin
+  PATH: bin:/usr/bin:/bin:app/bin
 default_process_types:
   leth: leth version
 EOF
