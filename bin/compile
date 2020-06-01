@@ -3,6 +3,9 @@ echo "-----> Installing Smart Vault"
 # change to the the BUILD_DIR ($1)
 cd $1
 
+mkdir bin
+cd bin
+
 # download the binary 
 wget "https://s3.eu-central-1.amazonaws.com/lightstreams-public/leth/latest/leth-linux-amd64"
 mv leth-linux-amd64 leth
