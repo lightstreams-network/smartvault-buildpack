@@ -1,2 +1,10 @@
 #!/bin/sh
-echo "--- {}"
+cat << EOF
+---
+addons:
+  - shared-database:5mb
+config_vars:
+  PATH: bin:/usr/bin:/bin
+default_process_types:
+  leth: leth version
+EOF
