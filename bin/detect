@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Smart Vault 0.24.0-alpha Streams"
+exit 0
