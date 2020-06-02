@@ -1,10 +1,8 @@
 #!/bin/sh
 cat << EOF
 ---
-addons:
-  - shared-database:5mb
 config_vars:
-  PATH: bin:/usr/bin:/bin:/app/bin
+  PATH: $PATH:$HOME/bin
 default_process_types:
-  leth: leth version
+  leth: leth
 EOF
