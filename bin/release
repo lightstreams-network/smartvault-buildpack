@@ -1,8 +1,6 @@
 #!/bin/sh
 cat << EOF
 ---
-config_vars:
-  PATH: $PATH:$HOME/bin
 default_process_types:
   leth: leth
 EOF
