@@ -7,10 +7,6 @@ mkdir bin
 cd bin
 
 # download the binary 
-wget "https://s3.eu-central-1.amazonaws.com/lightstreams-public/leth/latest/leth-linux-amd64"
+wget "https://s3.eu-central-1.amazonaws.com/lightstreams-public/temp/leth-linux-amd64"
 mv leth-linux-amd64 leth
 chmod u+x leth
-
-wget "https://s3.eu-central-1.amazonaws.com/lightstreams-public/lightchain/latest/lightchain-linux-amd64"
-mv lightchain-linux-amd64 lightchain
-chmod u+x lightchain
